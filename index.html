@@ -16,14 +16,14 @@
   <script>
   function downloadCV() {
     var doc = new jsPDF();
-    var source = window.document.getElementsByClassName("main-cv")[0].innerHTML;
+    var source = window.document.getElementsByClassName("content")[0].innerHTML;
     doc.fromHTML(source, 15, 15, {"width":180}, function() {
       doc.save("jungkook_park_cv.pdf");
     });
   }
   </script>
 
-  <div class="main-cv container">
+  <div class="container">
     <header>
       <h1>Jungkook Park</h1>
       <img src="./assets/jk_face.jpg" style="width:190px;"><br>
