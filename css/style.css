@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 860px;
+  margin:0 auto;
+  max-width:860px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,10 +65,10 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background:#f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
-  overflow-x: auto;
+  overflow-x:auto;
 }
 
 table {
@@ -107,13 +107,13 @@ header ul {
 
   padding:0;
 
-  background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background:#eee;
+  background:-moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background:-webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background:-o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background:-ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background:linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
 
   border-radius:5px;
   border:1px solid #d2d2d2;
@@ -183,7 +183,7 @@ footer {
   bottom:10px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width:960px) {
 
   div.wrapper {
     width:auto;
@@ -218,7 +218,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width:720px) {
   body {
     word-wrap:break-word;
   }
@@ -236,7 +236,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width:480px) {
   body {
     padding:15px;
   }
@@ -255,13 +255,25 @@ footer {
 }
 
 .link-in-list {
-  margin-right: 8px;
-  color: #39c;
-  font-weight: 400;
-  text-decoration: none;
+  margin-right:8px;
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
 }
 
 .social-media-icon {
-  width: auto;
-  height: 8px;
+  width:auto;
+  height:8px;
+}
+
+.pub-title {
+  font-weight:bold;
+}
+
+.pub-authors {
+  font-size:12px;
+}
+
+.pub-book {
+  font-size:12px;
 }
