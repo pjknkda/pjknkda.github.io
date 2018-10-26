@@ -16,7 +16,7 @@
   <script>
   function downloadCV() {
     var doc = new jsPDF();
-    var source = window.document.getElementsByClassName("contentmain-cv")[0].innerHTML;
+    var source = window.document.getElementsByClassName("main-cv")[0].innerHTML;
     doc.fromHTML(source, 15, 15, {"width":180}, function() {
       doc.save("jungkook_park_cv.pdf");
     });
@@ -63,7 +63,7 @@
         <li><b>SWE Intern</b>, Kakao Corp., Jeju, Korea, 2012</li>
       </ul>
 
-      <h3>Publications</h3>
+      <h3>Publications (<a href="https://scholar.google.co.kr/citations?user=I9uuwwcAAAAJ&hl=en">Google Scholar Page</a>)</h3>
       <ol class="sparse-list">
         <li>
           <div class="pub-title">Non-Linear Editing of Text-Based Screencasts</div>
