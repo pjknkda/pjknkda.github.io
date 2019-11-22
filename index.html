@@ -9,9 +9,6 @@
 
   <link href="./css/github-light.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js" integrity="sha256-my/qJggBjG+JoaR9MUSkYM+EpxVkxZRNn3KODs+el74=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js" integrity="sha256-tzkPfJgrAehd0mUYdxwWvn+TQrk2VjRJL/xP9iW5fhk=" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,15 +21,6 @@
     gtag('config', 'UA-129784205-1');
   </script>
 
-  <script>
-  function downloadCV() {
-    let pdf = new jsPDF('p','pt','a4');
-    pdf.addHTML(document.body, function() {
-      pdf.save('jungkook_park_cv.pdf');
-    });
-  }
-  </script>
-
   <div class="container">
     <header>
       <h1>Jungkook Park</h1>
@@ -43,7 +31,7 @@
         KAIST<br>
         Daejeon, Republic of Korea<br>
         <a href="https://github.com/pjknkda">[GitHub]</a>
-        <a href="#" onclick="downloadCV();">[CV]</a>
+<!--         <a href="#" onclick="downloadCV();">[CV]</a> -->
       </p>
     </header>
 
